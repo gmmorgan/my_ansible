@@ -5,7 +5,7 @@
 
 
   tasks:
-  - name:install htop
+  - name: install htop
     package:
       name: htop
 
