@@ -25,7 +25,7 @@
 
   - name: setup sudo for ansible user
     copy:
-      src: files/sudoer_velocirptor
+      src: files/sudoer_velociraptor
       dest: /etc/sudoers.d/velociraptor
       owner: root
       group: root
