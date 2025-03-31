@@ -21,7 +21,7 @@
   - name: add ansible user
     user:
       name: velociraptor
-      sysytem: yes
+      system: yes
 
   - name: setup sudo for ansible user
     copy:
