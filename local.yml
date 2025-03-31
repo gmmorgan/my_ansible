@@ -11,3 +11,10 @@
        - htop
        - tmux
 
+  - name: copy .bashrc file
+    copy:
+      src: files/bashrc
+      dest: /home/gmm/.bashrc
+      owner: gmm
+      group: gmm
+
